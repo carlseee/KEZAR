@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: none;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: rgb(245, 243, 243);
+    padding: 30px 0;
+}
+
+.wrapper .sidebar h2 {
+    color: rgb(2, 2, 150);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+.wrapper .sidebar ul li a {
+    color: rgb(2, 2, 150);
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+    background: #311e94;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+}
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main_content .header {
+    padding: 20px;
+    background: #fff;
+    color: black;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-column-gap: 1em;
+}
+
+.grid-container > i {
+    background: rgb(2, 2, 150);
+    padding: 3em;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.grid-container > i:nth-child(even) {
+    background: #ddd;
+    padding: 3em;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+h1,h2 {
+    font-size: 15px;
+    margin-top: 15px;
+    color: white;
+}
+
+.second-container > i {
+    background: #eee;
+    padding: 3em;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.users {
+    color:black;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.chart-div {
+    margin-top: 50px;
+}
